@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import streamlit as st
 
 from pinata import pin_file_to_ipfs, pin_json_to_ipfs, convert_data_to_json
-from ethereum import w3, generate_account, get_balance, send_transaction
+# from ethereum import w3, generate_account, get_balance, send_transaction
 
 load_dotenv()
 
